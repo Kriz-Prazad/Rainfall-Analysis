@@ -100,10 +100,10 @@ So we have to group the data with **District** and **Month**. We can fill the me
 - Arunachal Pradesh (AR) and Sikkim (SK) have the highest average daily rainfall.
 - Maharashtra (MH) is a had the most extreme rain, with more than double the number of extreme rainfall days of the next closest state, Karnataka (KA).
 - Rainfall is not just a mountain phenomenon. The top 10 rainiest stations include both high-elevation locations (like Mukteshwar and Cherrapunji) and sea-level coastal cities (like Bombay and Goa).
-Occurence of Rain
+3. Occurence of Rain
 - It is more common for a day to have some rain than no rain at all (62% of days are rainy).
 - When it does rain, it is overwhelmingly light-to-moderate (0-50mm)
 - Heavy rain is very rare occurence
-3. Correlations
+4. Correlations
 - Air pressure, Average temperature, Temperature range has the strongest relation with rainfall in this dataset
 - Temperature range : Heavy rain = small range... No rain = Large range
