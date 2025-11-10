@@ -66,8 +66,7 @@ So we have to group the data with **District** and **Month**. We can fill the me
 <details>
   <summary>
     The Data Analysis strategy/ Problem definition in this dataset
-  </summary>
---- 
+  </summary> 
 
 ## 1. Time Series Analysis (Rainfall Over Time)
 -	which month has the highest average rainfall
