@@ -4,7 +4,6 @@
 #### Tools used
 #### - Python, Jupyter notebook
 
-<Details>
 <summary>About the Data </summary>
 
 #### This dataset consists of daily weather and geographical data for 458 weather stations across India over a span of more than 10 years, specifically from January 1, 2015, to February 10, 2025.
@@ -37,11 +36,9 @@
 
 ---
 
-</Details>
 
 ---
 
-<details>
 <summary>Preprocessing the data</summary>
 
 ### The percentage of null values are as follows:
@@ -59,11 +56,9 @@ So we have to group the data with **District** and **Month**. We can fill the me
   
 - Group the dataset based on district,station name and month, then we have to find the mean to fill the null values
   
-</details>
 
 ---
 
-<details>
   <summary>
     The Data Analysis strategy/ Problem definition in this dataset
   </summary> 
@@ -93,4 +88,3 @@ So we have to group the data with **District** and **Month**. We can fill the me
 -	How does the correlation between rainfall and air_pressure,windspeed and elevation differ between different seasons?
 -	how does the correlation between rainfall and avg_temp,min_temp,max_temp differ between different seasons?
 ---
-</details>
