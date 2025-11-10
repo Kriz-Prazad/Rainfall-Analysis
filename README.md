@@ -15,7 +15,7 @@
 
 ---
 
-### 🌦️ **Weather and Climate Data Fields Explained**
+###  **Weather and Climate Data Fields Explained**
 
 | **Field**         | **Description** |
 |------------------|-----------------|
@@ -38,3 +38,21 @@
 ---
 
 </Details>
+
+<details>
+<summary>Preprocessing the data</summary>
+### The percentage of null values are as follows:
+---
+* min_temp has 4.52% null value
+* max_temp has 11.40% null values
+* wind_speed has 28.28% null values
+* air_pressure has 31.40% null values
+* rainfall has 26.54% null values
+---
+We have to find a strategy to fill the null values. Since the **District** is not having null values, we can use it as a unique value to group and fill null values accordingly. But the data is prone to be inconsistent if we use only district name, because climate is different in different months / seasons. So we have to group the data with **District** and **Month**. We can fill the mean value at the null's place
+  
+- Group the dataset based on district,station name and month, then we have to find the mean to fill the null values
+
+
+  
+</details>
