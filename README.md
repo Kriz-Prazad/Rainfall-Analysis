@@ -4,7 +4,8 @@
 #### Tools used
 #### - Python, Jupyter notebook
 
-<Details> About the Data </Details>
+<Details>
+<summary>About the Data </summary>
 
 #### This dataset consists of daily weather and geographical data for 458 weather stations across India over a span of more than 10 years, specifically from January 1, 2015, to February 10, 2025.
 
@@ -35,3 +36,5 @@
 | **rainfall**       | Total precipitation recorded on that day, usually in millimeters (mm). |
 
 ---
+
+</Details>
