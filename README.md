@@ -88,3 +88,22 @@ So we have to group the data with **District** and **Month**. We can fill the me
 -	How does the correlation between rainfall and air_pressure,windspeed and elevation differ between different seasons?
 -	how does the correlation between rainfall and avg_temp,min_temp,max_temp differ between different seasons?
 ---
+
+## Summary
+- The single most important finding is that rainfall is a complex event that cannot be predicted by any single factor. There is no simple rule like "higher elevation" or "higher temperature" that equals more rain. Instead, rainfall depends on a specific combination of conditions.
+1. Insights about Rain and seasons/months
+- The Monsoon season is the dominant rainy period, with the highest number of rainy days and the highest average rainfall.
+- July is the wettest month, both for average rainfall amount and the total number of rainy days.
+- February is the driest month, with the least amount of rain and the fewest rainy days.
+- Elevation alone is not the factor, it can rain on any elevation
+2. Rain in different Location
+- Arunachal Pradesh (AR) and Sikkim (SK) have the highest average daily rainfall.
+- Maharashtra (MH) is a had the most extreme rain, with more than double the number of extreme rainfall days of the next closest state, Karnataka (KA).
+- Rainfall is not just a mountain phenomenon. The top 10 rainiest stations include both high-elevation locations (like Mukteshwar and Cherrapunji) and sea-level coastal cities (like Bombay and Goa).
+Occurence of Rain
+- It is more common for a day to have some rain than no rain at all (62% of days are rainy).
+- When it does rain, it is overwhelmingly light-to-moderate (0-50mm)
+- Heavy rain is very rare occurence
+3. Correlations
+- Air pressure, Average temperature, Temperature range has the strongest relation with rainfall in this dataset
+- Temperature range : Heavy rain = small range... No rain = Large range
