@@ -39,6 +39,8 @@
 
 </Details>
 
+---
+
 <details>
 <summary>Preprocessing the data</summary>
 
@@ -56,7 +58,40 @@ But the data is prone to be inconsistent if we use only district name, because c
 So we have to group the data with **District** and **Month**. We can fill the mean value at the null's place
   
 - Group the dataset based on district,station name and month, then we have to find the mean to fill the null values
-
-
   
+</details>
+
+---
+
+<details>
+  <summary>
+    The Data Analysis strategy/ Problem definition in this dataset
+  </summary>
+--- 
+
+## 1. Time Series Analysis (Rainfall Over Time)
+-	which month has the highest average rainfall
+-	How does the frequency of rainy days in differs in different seasons (e.g., days with rainfall > 1 mm)?
+-	Frequency of rainy days in each month (days with rainfall > 1 mm)
+-	What is the average rainfall for each specific year in the dataset? Is there a noticeable upward or downward trend?
+## 2. Geographical Analysis (Rainfall in Space) 
+-	 Which are the top 5 states that has the highest average daily rainfall across all its stations? 
+-	Which are the top 5 unique stations that has the most "rainy days" (days with rainfall > 1 mm) in a single year? 
+-	 Is there a clear relationship between latitude and average rainfall? 
+-	Which are the top 10 states that exhibits the most extreme rainfall events (rainfall > 100 mm)?
+-	What is the average rainfall for stations above 1000m elevation compared to those below 100m?
+-	the elevation of place with highest rainfall (top 10)
+
+## 3. Distribution Analysis (Rainfall Frequency) 
+-	 What percentage of all recorded that days had zero rainfall?
+-	What percentage of the total, cumulative rainfall in the dataset comes from days with over 50 mm of rain?
+-	Ignoring days with no rain, what is the most common range of rainfall (e.g., 1-10 mm, 10-20 mm, etc.)?
+## 4. Correlative Analysis (Rainfall vs. Other Weather) 
+-	What is the average air_pressure on days with heavy rain (> 50 mm) compared to dry days (0 mm)?
+-	Is higher rainfall associated with a larger daily temperature range (max_temp - min_temp)?
+-	 What is the maximum,minimum and average wind_speed during the top 5% of rainfall events?
+-	Is there a specific avg_temp range where rainfall is most likely to occur?
+-	How does the correlation between rainfall and air_pressure,windspeed and elevation differ between different seasons?
+-	how does the correlation between rainfall and avg_temp,min_temp,max_temp differ between different seasons?
+---
 </details>
