@@ -4,7 +4,7 @@
 #### Tools used
 #### - Python, Jupyter notebook
 
-<summary>About the Data </summary>
+<h1>About the Data </h1>
 
 #### This dataset consists of daily weather and geographical data for 458 weather stations across India over a span of more than 10 years, specifically from January 1, 2015, to February 10, 2025.
 
@@ -39,7 +39,7 @@
 
 ---
 
-<summary>Preprocessing the data</summary>
+<h1>Preprocessing the data</h1>
 
 ### The percentage of null values are as follows:
 ---
@@ -59,9 +59,9 @@ So we have to group the data with **District** and **Month**. We can fill the me
 
 ---
 
-  <summary>
+  <h1>
     The Data Analysis strategy/ Problem definition in this dataset
-  </summary> 
+  </h1> 
 
 ## 1. Time Series Analysis (Rainfall Over Time)
 -	which month has the highest average rainfall
